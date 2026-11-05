@@ -31,3 +31,7 @@ I build web apps and AI tools, mostly in TypeScript. Right now I'm working with 
 Got a project, an idea or a bug that's been haunting you? Send me an email.
 
 [![Email](https://img.shields.io/badge/camarinhatheo%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camarinhatheo@gmail.com)
+
+<br />
+
+<sub>Red Bull photo: <a href="https://commons.wikimedia.org/wiki/File:Red_Bull_Energy_Drink,_Dongguan,_China_1_May_2024.jpg">メイド理世 / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, cropped.</sub>
