@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-label="const theo = { role: 'full-stack developer', focus: ['AI', 'SaaS', 'edtech'], stack: ['TypeScript', 'React', 'Next.js', 'NestJS'], team: 'NewCortex', fuel: 'Red Bull' }">
+  <defs>
+    <filter id="sketch" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="3"/>
+    </filter>
+    <clipPath id="can"><rect x="1000" y="92" width="92" height="186" rx="10"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    .mono text{white-space:pre}
+    .cursor{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .fizz{animation:fizz 2.6s ease-in infinite}
+    @keyframes fizz{0%{transform:translateY(0);opacity:0}20%{opacity:.9}100%{transform:translateY(-34px);opacity:0}}
+  </style>
+
+  <rect width="1200" height="340" rx="14" fill="#0A0A0A"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="13.5" stroke="#FFFFFF" stroke-opacity="0.18"/>
+
+  <!-- editor chrome -->
+  <circle cx="44" cy="40" r="5.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="64" cy="40" r="5.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="84" cy="40" r="5.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="112" y="45" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" fill="#6B6B6B">about.ts</text>
+  <path d="M0 66 H 1200" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <g class="mono" font-size="19">
+    <g fill="#4A4A4A" text-anchor="end">
+      <text x="62" y="110">1</text><text x="62" y="142">2</text><text x="62" y="174">3</text>
+      <text x="62" y="206">4</text><text x="62" y="238">5</text><text x="62" y="270">6</text><text x="62" y="302">7</text>
+    </g>
+    <text x="88" y="110" fill="#8A8A8A"><tspan fill="#FFFFFF" font-weight="700">const</tspan> <tspan fill="#FFFFFF">theo</tspan> = {</text>
+    <text x="88" y="142" fill="#8A8A8A">  <tspan fill="#E6E6E6">role</tspan>: <tspan fill="#A8A8A8">"full-stack developer"</tspan>,</text>
+    <text x="88" y="174" fill="#8A8A8A">  <tspan fill="#E6E6E6">focus</tspan>: [<tspan fill="#A8A8A8">"AI"</tspan>, <tspan fill="#A8A8A8">"SaaS"</tspan>, <tspan fill="#A8A8A8">"edtech"</tspan>],</text>
+    <text x="88" y="206" fill="#8A8A8A">  <tspan fill="#E6E6E6">stack</tspan>: [<tspan fill="#A8A8A8">"TypeScript"</tspan>, <tspan fill="#A8A8A8">"React"</tspan>, <tspan fill="#A8A8A8">"Next.js"</tspan>, <tspan fill="#A8A8A8">"NestJS"</tspan>],</text>
+    <text x="88" y="238" fill="#8A8A8A">  <tspan fill="#E6E6E6">team</tspan>: <tspan fill="#A8A8A8">"NewCortex"</tspan>,</text>
+    <text x="88" y="270" fill="#8A8A8A">  <tspan fill="#E6E6E6">fuel</tspan>: <tspan fill="#FFFFFF" font-weight="700">"Red Bull"</tspan>,  <tspan fill="#5A5A5A">// not negotiable</tspan></text>
+    <text x="88" y="302" fill="#8A8A8A">};<tspan class="cursor" fill="#FFFFFF"> █</tspan></text>
+  </g>
+
+  <!-- sketch: energy drink can + arrow -->
+  <g stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#sketch)">
+    <path d="M820 262 C 870 250, 930 236, 982 200"/>
+    <path d="M966 196 L 984 199 L 978 216"/>
+    <!-- can body -->
+    <rect x="1000" y="92" width="92" height="186" rx="10"/>
+    <ellipse cx="1046" cy="92" rx="46" ry="10"/>
+    <path d="M1004 108 H 1088 M1004 262 H 1088" stroke-opacity="0.6"/>
+    <path d="M1036 88 C 1040 82, 1054 82, 1058 88" stroke-width="2"/>
+    <!-- hatched lower half -->
+    <g clip-path="url(#can)" stroke-width="1.6" stroke-opacity="0.7">
+      <path d="M990 200 L 1040 150 M990 220 L 1060 150 M990 240 L 1080 150 M995 255 L 1100 150 M1010 260 L 1100 170 M1030 260 L 1100 190 M1050 260 L 1100 210 M1070 260 L 1100 230"/>
+    </g>
+  </g>
+  <text class="mono" x="1046" y="140" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">ENERGY</text>
+  <text x="1046" y="312" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" fill="#6B6B6B" text-anchor="middle">can #3 today</text>
+  <g fill="#FFFFFF">
+    <circle class="fizz" cx="1036" cy="76" r="2"/>
+    <circle class="fizz" cx="1052" cy="72" r="1.6" style="animation-delay:-.9s"/>
+    <circle class="fizz" cx="1046" cy="78" r="1.3" style="animation-delay:-1.7s"/>
+  </g>
+</svg>

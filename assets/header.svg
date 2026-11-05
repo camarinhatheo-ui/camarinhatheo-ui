@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-label="Theo Camarinha, full-stack developer">
+  <defs>
+    <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="3.2"/>
+    </filter>
+    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#FFFFFF" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    .cursor{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+
+  <rect width="1200" height="320" rx="14" fill="#0A0A0A"/>
+  <rect x="700" y="0" width="500" height="320" fill="url(#dots)"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="13.5" stroke="#FFFFFF" stroke-opacity="0.18"/>
+
+  <!-- text -->
+  <text class="mono" x="72" y="74" font-size="15" fill="#6B6B6B">~/camarinhatheo-ui</text>
+  <text class="sans" x="68" y="160" font-size="74" font-weight="700" fill="#FFFFFF" letter-spacing="-2.5">Theo Camarinha</text>
+  <path d="M72 182 C 220 176, 420 186, 600 178" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" filter="url(#sketch)"/>
+  <text class="mono" x="72" y="226" font-size="19" fill="#BDBDBD">full-stack developer. web apps, AI, and too much Red Bull.</text>
+  <text class="mono" x="72" y="262" font-size="16" fill="#6B6B6B">$ currently building with the NewCortex team<tspan class="cursor" fill="#FFFFFF"> █</tspan></text>
+
+  <!-- sketch: laptop on a desk -->
+  <g stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#sketch)">
+    <!-- desk -->
+    <path d="M736 262 C 860 259, 1010 264, 1168 260"/>
+    <path d="M760 270 L 752 300 M1150 268 L 1158 300" stroke-opacity="0.5"/>
+    <!-- screen -->
+    <rect x="814" y="70" width="250" height="160" rx="9"/>
+    <rect x="828" y="84" width="222" height="132" rx="3" stroke-opacity="0.45"/>
+    <!-- base -->
+    <path d="M790 232 H 1088 L 1104 252 H 774 Z"/>
+    <path d="M912 243 H 990" stroke-opacity="0.5"/>
+    <!-- code on screen -->
+    <g stroke-width="4">
+      <path d="M844 104 H 880 M890 104 H 960"/>
+      <path d="M860 124 H 920 M930 124 H 1010" stroke-opacity="0.55"/>
+      <path d="M860 144 H 900 M910 144 H 990"/>
+      <path d="M876 164 H 950" stroke-opacity="0.55"/>
+      <path d="M860 184 H 1000" stroke-opacity="0.55"/>
+      <path d="M844 202 H 856"/>
+    </g>
+    <!-- small plant -->
+    <path d="M1124 258 V 222 H 1152 V 258"/>
+    <path d="M1138 222 C 1132 200, 1120 196, 1112 190 M1138 222 C 1140 196, 1150 186, 1160 180 M1138 222 C 1136 206, 1138 196, 1136 178"/>
+  </g>
+  <rect class="cursor" x="862" y="196" width="8" height="12" fill="#FFFFFF"/>
+</svg>

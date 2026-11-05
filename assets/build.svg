@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" fill="none" role="img" aria-label="What I work on: AI features, SaaS platforms, tools for schools">
+  <defs>
+    <filter id="sketch" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="11"/>
+      <feDisplacementMap in="SourceGraphic" scale="3"/>
+    </filter>
+  </defs>
+  <style>
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+  </style>
+
+  <!-- card frames -->
+  <g fill="#0A0A0A" stroke="#FFFFFF" stroke-opacity="0.18">
+    <rect x="0.5" y="0.5" width="378" height="279" rx="14"/>
+    <rect x="410.5" y="0.5" width="378" height="279" rx="14"/>
+    <rect x="820.5" y="0.5" width="378" height="279" rx="14"/>
+  </g>
+
+  <g class="mono">
+    <text x="32" y="44" font-size="13" fill="#5A5A5A">01</text>
+    <text x="442" y="44" font-size="13" fill="#5A5A5A">02</text>
+    <text x="852" y="44" font-size="13" fill="#5A5A5A">03</text>
+  </g>
+
+  <g stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#sketch)">
+    <!-- 01: small neural net -->
+    <g stroke-opacity="0.45" stroke-width="1.6">
+      <path d="M140 76 L190 62 M140 76 L190 100 M140 76 L190 138 M140 118 L190 62 M140 118 L190 100 M140 118 L190 138"/>
+      <path d="M190 62 L240 82 M190 100 L240 82 M190 138 L240 82 M190 62 L240 120 M190 100 L240 120 M190 138 L240 120"/>
+    </g>
+    <circle cx="140" cy="76" r="9" fill="#0A0A0A"/>
+    <circle cx="140" cy="118" r="9" fill="#0A0A0A"/>
+    <circle cx="190" cy="62" r="9" fill="#0A0A0A"/>
+    <circle cx="190" cy="100" r="9" fill="#FFFFFF"/>
+    <circle cx="190" cy="138" r="9" fill="#0A0A0A"/>
+    <circle cx="240" cy="82" r="9" fill="#0A0A0A"/>
+    <circle cx="240" cy="120" r="9" fill="#0A0A0A"/>
+
+    <!-- 02: browser with a chart -->
+    <rect x="520" y="52" width="160" height="104" rx="8"/>
+    <path d="M520 72 H 680"/>
+    <circle cx="533" cy="62" r="2.5"/><circle cx="543" cy="62" r="2.5"/><circle cx="553" cy="62" r="2.5"/>
+    <path d="M540 140 V 116 M568 140 V 102 M596 140 V 110 M624 140 V 92 M652 140 V 84" stroke-width="9" stroke-linecap="butt"/>
+    <path d="M534 141 H 666" stroke-opacity="0.5"/>
+
+    <!-- 03: open book -->
+    <path d="M930 88 C 960 76, 990 78, 1010 92 C 1030 78, 1060 76, 1090 88 V 150 C 1060 138, 1030 140, 1010 154 C 990 140, 960 138, 930 150 Z"/>
+    <path d="M1010 92 V 154"/>
+    <g stroke-opacity="0.5" stroke-width="1.8">
+      <path d="M944 102 C 960 96, 978 96, 996 104 M944 116 C 960 110, 978 110, 996 118 M944 130 C 960 124, 978 124, 996 132"/>
+      <path d="M1024 104 C 1042 96, 1060 96, 1076 102 M1024 118 C 1042 110, 1060 110, 1076 116"/>
+    </g>
+    <path d="M1060 52 L 1064 62 L 1074 63 L 1066 70 L 1069 80 L 1060 74 L 1051 80 L 1054 70 L 1046 63 L 1056 62 Z" stroke-width="1.8"/>
+  </g>
+
+  <g class="mono">
+    <text x="32" y="206" font-size="22" font-weight="700" fill="#FFFFFF">AI features</text>
+    <text x="32" y="236" font-size="15" fill="#8A8A8A">LLMs inside real products,</text>
+    <text x="32" y="258" font-size="15" fill="#8A8A8A">not just demos.</text>
+
+    <text x="442" y="206" font-size="22" font-weight="700" fill="#FFFFFF">SaaS platforms</text>
+    <text x="442" y="236" font-size="15" fill="#8A8A8A">Database, API and UI.</text>
+    <text x="442" y="258" font-size="15" fill="#8A8A8A">The whole thing.</text>
+
+    <text x="852" y="206" font-size="22" font-weight="700" fill="#FFFFFF">Tools for schools</text>
+    <text x="852" y="236" font-size="15" fill="#8A8A8A">Stuff that makes learning</text>
+    <text x="852" y="258" font-size="15" fill="#8A8A8A">a bit less boring.</text>
+  </g>
+</svg>
