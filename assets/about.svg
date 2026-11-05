@@ -27,12 +27,12 @@
       <text x="62" y="110">1</text><text x="62" y="142">2</text><text x="62" y="174">3</text>
       <text x="62" y="206">4</text><text x="62" y="238">5</text><text x="62" y="270">6</text><text x="62" y="302">7</text>
     </g>
-    <text x="88" y="110" fill="#8A8A8A"><tspan fill="#FFFFFF" font-weight="700">const</tspan> <tspan fill="#FFFFFF">theo</tspan> = {</text>
+    <text x="88" y="110" fill="#8A8A8A"><tspan fill="#FFFFFF" font-weight="700">const</tspan> <tspan fill="#FFFFFF">th</tspan> = {</text>
     <text x="88" y="142" fill="#8A8A8A">  <tspan fill="#E6E6E6">role</tspan>: <tspan fill="#A8A8A8">"full-stack developer"</tspan>,</text>
     <text x="88" y="174" fill="#8A8A8A">  <tspan fill="#E6E6E6">focus</tspan>: [<tspan fill="#A8A8A8">"AI"</tspan>, <tspan fill="#A8A8A8">"SaaS"</tspan>, <tspan fill="#A8A8A8">"edtech"</tspan>],</text>
-    <text x="88" y="206" fill="#8A8A8A">  <tspan fill="#E6E6E6">stack</tspan>: [<tspan fill="#A8A8A8">"TypeScript"</tspan>, <tspan fill="#A8A8A8">"React"</tspan>, <tspan fill="#A8A8A8">"Next.js"</tspan>, <tspan fill="#A8A8A8">"NestJS"</tspan>],</text>
-    <text x="88" y="238" fill="#8A8A8A">  <tspan fill="#E6E6E6">team</tspan>: <tspan fill="#A8A8A8">"NewCortex"</tspan>,</text>
-    <text x="88" y="270" fill="#8A8A8A">  <tspan fill="#E6E6E6">fuel</tspan>: <tspan fill="#FFFFFF" font-weight="700">"Red Bull"</tspan>,  <tspan fill="#5A5A5A">// not negotiable</tspan></text>
+    <text x="88" y="206" fill="#8A8A8A">  <tspan fill="#E6E6E6">stack</tspan>: [<tspan fill="#A8A8A8">"typeScript"</tspan>, <tspan fill="#A8A8A8">"React"</tspan>, <tspan fill="#A8A8A8">"Next.js"</tspan>, <tspan fill="#A8A8A8">"NestJS"</tspan>],</text>
+    <text x="88" y="238" fill="#8A8A8A">  <tspan fill="#E6E6E6">team</tspan>: <tspan fill="#A8A8A8">"new cortex"</tspan>,</text>
+    <text x="88" y="270" fill="#8A8A8A">  <tspan fill="#E6E6E6">fuel</tspan>: <tspan fill="#FFFFFF" font-weight="700">"red bull"</tspan>,  <tspan fill="#5A5A5A">// not negotiable</tspan></text>
     <text x="88" y="302" fill="#8A8A8A">};<tspan class="cursor" fill="#FFFFFF"> █</tspan></text>
   </g>
 
